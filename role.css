@@ -1,0 +1,56 @@
+
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 550px;
+   
+  }
+  
+  .slider img {
+    width: 5%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: width 0.5s ease;
+    cursor: pointer;
+  }
+  .see{
+   
+    
+    font-size: 1.5em;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 290px;
+    display: flex;
+
+
+  }
+  .see a{
+    position: absolute;
+    margin-top: 50px;
+    text-decoration: none;
+    color: rgb(255, 119, 0);
+  }
+  .see a :hover{
+    color: #ffffff;
+    transition: all;
+    transition-duration: 200ms;
+  }
+  .icon{
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+    
+    
+  }
+  .icon a{
+    
+    color: #ffffff;
+    font-size: 2em;
+    margin: 20px;
+  }
+
+  

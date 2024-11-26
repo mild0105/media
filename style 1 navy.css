@@ -1,0 +1,296 @@
+/* Importing Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to top left,#000000,#301e00,#6e4801); 
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:  rgba(128, 128, 128, 0.3);
+ height: 70px;
+ backdrop-filter: blur(30px);
+
+}
+nav {
+ display: flex;
+ height: 70px;
+ align-items: center;
+ justify-content: space-between;
+
+ 
+}
+
+nav div img {
+  width: 30px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 3rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family:"Maven Pro", sans-serif;
+  color: white;
+  font-weight: 600;
+  padding: 8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  
+}
+
+nav ul li a:hover {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
+
+.dropbtn {
+  
+  padding: 16px;
+  font-family:"Maven Pro", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn:hover {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+  transition: all;
+  transition-duration: 300ms;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-family:"Maven Pro", sans-serif;
+  font-weight: 600;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  font-family:"Maven Pro", sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: orangered;
+  border-radius: 20px;
+  color: #FFF;
+  transition-duration: 400ms;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.fa-circle-arrow-down {
+  padding-left: 10px;
+}
+.menu a {
+  font-size: 16px;
+}
+
+
+
+.container2 {
+width: 80%;
+max-width: 1200px;
+margin: 20px auto;
+flex-direction: column;
+align-items: center;
+}
+.profile .profile-info img {
+width: 200px;
+height: 200px;
+position: left;
+border-radius: 50%;
+background-color: #ccc;
+margin-top: 20px;
+object-fit: cover;
+}
+.profile {
+display: flex;
+width: 100%;
+position: left;
+justify-content: space-between;
+margin-bottom: 20px;
+font-family:"Maven Pro", sans-serif;
+}
+.name {
+width: 500px;
+height: 200px;
+position: center;
+margin-top: 150px;
+margin-left: -260px;
+font-family:"Maven Pro", sans-serif;
+}
+.font-size{
+font-size: 25px;
+}
+.profile-info {
+display: flex;
+flex-direction: column;
+align-items: left;
+}
+.description{
+margin-top: 20px;
+width: 500px;
+font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+
+.profile .contact-info {
+width: 40%;
+margin-top: 283px;
+line-height: 1.7; 
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+
+.card-list .card-item {
+  height: auto;
+  width: 50px;
+  color: #fff;
+  user-select: none;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.user-image {
+  width: 270px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  padding: 0px;
+  text-align: center;
+}
+
+.user-profession {
+  font-size: 15px;
+  color: #e3e3e3;
+  font-weight: 100;
+  margin-top: 7px;
+  margin-bottom: 2px;
+  text-align: center;
+  word-spacing: 1px;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+.user-name{
+  font-size: 30px;
+  color: #e3e3e3;
+  font-weight: 50;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  text-align: center;
+  font-family:"Maven Pro", sans-serif;
+}
+.user-name-thai{
+  font-size: 25px;
+  color: #e3e3e3;
+  font-weight: 50px;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  text-align: center;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+
+.message-button {
+  padding: 3px 7px;
+  margin-top: 20px;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 7px;
+  background-color: #f4f4f4;
+  font-family: "IBM Plex Sans Thai Looped",sans-serif;
+  border: 1px solid transparent; 
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-align: center;
+}
+
+.message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+
+@media (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
